@@ -1,0 +1,31 @@
+{
+  "name": "@varshiljpatel/nenv-win32-x64-msvc",
+  "version": "0.0.4",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "nenv.win32-x64-msvc.node",
+  "files": [
+    "nenv.win32-x64-msvc.node"
+  ],
+  "description": "No need to manage .env files. Just use nenv!",
+  "keywords": [
+    "no.env",
+    ".nenv",
+    "anenv",
+    "no env"
+  ],
+  "author": "Varshil J. Patel",
+  "homepage": "https://github.com/varshiljpatel/nenv#readme",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10"
+  },
+  "repository": "https://github.com/varshiljpatel/nenv.git",
+  "bugs": {
+    "url": "https://github.com/varshiljpatel/nenv/issues"
+  }
+}
