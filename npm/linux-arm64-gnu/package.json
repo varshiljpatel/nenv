@@ -1,0 +1,21 @@
+{
+  "name": "@varshiljpatel/nenv-linux-arm64-gnu",
+  "version": "0.0.2",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "arm64"
+  ],
+  "main": "nenv.linux-arm64-gnu.node",
+  "files": [
+    "nenv.linux-arm64-gnu.node"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "@varshiljpatel/nenv-linux-x64-musl",
+  "version": "0.0.2",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "main": "nenv.linux-x64-musl.node",
+  "files": [
+    "nenv.linux-x64-musl.node"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "musl"
+  ]
+}

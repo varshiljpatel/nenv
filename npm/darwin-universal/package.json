@@ -1,0 +1,15 @@
+{
+  "name": "@varshiljpatel/nenv-darwin-universal",
+  "version": "0.0.2",
+  "os": [
+    "darwin"
+  ],
+  "main": "nenv.darwin-universal.node",
+  "files": [
+    "nenv.darwin-universal.node"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10"
+  }
+}

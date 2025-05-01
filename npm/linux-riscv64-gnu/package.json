@@ -1,0 +1,21 @@
+{
+  "name": "@varshiljpatel/nenv-linux-riscv64-gnu",
+  "version": "0.0.2",
+  "os": [
+    "linux"
+  ],
+  "cpu": [
+    "riscv64"
+  ],
+  "main": "nenv.linux-riscv64-gnu.node",
+  "files": [
+    "nenv.linux-riscv64-gnu.node"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10"
+  },
+  "libc": [
+    "glibc"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "@varshiljpatel/nenv-win32-ia32-msvc",
+  "version": "0.0.2",
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "ia32"
+  ],
+  "main": "nenv.win32-ia32-msvc.node",
+  "files": [
+    "nenv.win32-ia32-msvc.node"
+  ],
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">= 10"
+  }
+}
