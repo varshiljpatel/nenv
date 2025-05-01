@@ -51,5 +51,11 @@
   "dependencies": {
     "@types/node": "^22.15.3",
     "commander": "^13.1.0"
-  }
+  },
+  "author": {
+    "name": "Varshil Patel",
+    "email": "varshil.dev@gmail.com"
+  },
+  "repository": "https://github.com/varshiljpatel/nenv.git",
+  "description": "No need to manage .env files. Just use nenv!"
 }
