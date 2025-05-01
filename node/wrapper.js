@@ -1,3 +1,5 @@
+import * as fs from 'fs';
+import * as path from 'path';
 import { encryptEnv as encrypt_env, decryptEnv as decrypt_env } from '../index.js';
 
 /**
@@ -9,8 +11,6 @@ import { encryptEnv as encrypt_env, decryptEnv as decrypt_env } from '../index.j
  * @throws Will throw an error if the .env file does not exist.
  */
 export function encryptEnv(envPath, secret, outputPath) {
-  const fs = require('fs');
-  const path = require('path');
 
   // Check if the .env file exists
   if (!fs.existsSync(envPath)) {
@@ -42,9 +42,6 @@ export function encryptEnv(envPath, secret, outputPath) {
  * @throws Will throw an error if the .nenv file does not exist.
  */
 export function decryptEnv(envPath, secret, outputName) {
-  const fs = require('fs');
-  const path = require('path');
-
   // Construct the full path to the .nenv file
   const nenvFilePath = path.join(envPath, '.nenv');
 
@@ -72,9 +69,6 @@ export function decryptEnv(envPath, secret, outputName) {
  * @param {string} filePath - The file path to be added to the .gitignore file.
  */
 function updateGitignore(filePath) {
-  const fs = require('fs');
-  const path = require('path');
-
   // Resolve the path to the .gitignore file
   const gitignorePath = path.resolve('.gitignore');
   let content = '';

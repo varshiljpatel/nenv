@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+import path from "path";
 import { encryptEnv, decryptEnv } from "./wrapper.js";
 import { Command } from "commander";
 
@@ -19,7 +20,7 @@ program
     const envPath = `${options.env}/${options.name}`; // Construct the full path to the .env file
     const outputPath = options.output; // Output directory for the .nenv file
     encryptEnv(envPath, secret, outputPath); // Call the encrypt function
-    console.log(`Environment encrypted successfully to ${outputPath}/.nenv`);
+    console.log(`Environment encrypted successfully to ${path.join(outputPath, ".nenv")}`);
   });
 
 program
@@ -34,7 +35,7 @@ program
     const outputName = options.name; // Name of the output .env file
     decryptEnv(envPath, secret, outputName); // Call the decrypt function
     console.log(
-      `Environment decrypted successfully to ${envPath}/${outputName}`
+      `Environment decrypted successfully to ${path.join(envPath, outputName)}`
     );
   });
 
