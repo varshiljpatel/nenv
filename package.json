@@ -57,5 +57,19 @@
     "email": "varshil.dev@gmail.com"
   },
   "repository": "https://github.com/varshiljpatel/nenv.git",
-  "description": "No need to manage .env files. Just use nenv!"
+  "description": "No need to manage .env files. Just use nenv!",
+  "optionalDependencies": {
+    "@varshiljpatel/nenv-darwin-arm64": "0.0.4",
+    "@varshiljpatel/nenv-android-arm64": "0.0.4",
+    "@varshiljpatel/nenv-linux-arm64-gnu": "0.0.4",
+    "@varshiljpatel/nenv-linux-arm64-musl": "0.0.4",
+    "@varshiljpatel/nenv-win32-arm64-msvc": "0.0.4",
+    "@varshiljpatel/nenv-linux-arm-gnueabihf": "0.0.4",
+    "@varshiljpatel/nenv-linux-arm-musleabihf": "0.0.4",
+    "@varshiljpatel/nenv-linux-x64-musl": "0.0.4",
+    "@varshiljpatel/nenv-win32-ia32-msvc": "0.0.4",
+    "@varshiljpatel/nenv-android-arm-eabi": "0.0.4",
+    "@varshiljpatel/nenv-darwin-universal": "0.0.4",
+    "@varshiljpatel/nenv-linux-riscv64-gnu": "0.0.4"
+  }
 }
